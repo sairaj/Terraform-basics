@@ -35,7 +35,8 @@ variable "example-map" {
     default = {
         Duration = 105,
         Trainer = "verma",
-        Cloud = "AWs"
+        Cloud = "AWs",
+        hours = 20
     }
 }
 
