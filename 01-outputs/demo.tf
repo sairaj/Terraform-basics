@@ -13,7 +13,7 @@ output "printing-demo" {
 output "print-demo" {
     value = var.demo
 }
-/**
+
 # This is how we declare a list variable
 variable "example-list" {
     default = [
@@ -43,5 +43,3 @@ variable "example-map" {
 output "ex-map-op" {
     value = "Welcome to Devops with ${var.example-map["Cloud"]} Training duration is ${var.example-map["hours"]} and trainer name is ${var.example-map["Trainer"]}"
 }
-
-**/
