@@ -4,7 +4,7 @@ provider "aws" {
 
 # create ec2 instance
 resource "aws_instance" "this" {
-    ami = "ami-"
+    ami = "ami-06b80a951df965a53"
     instance_type = "t3.micro"
 
     tags = {
