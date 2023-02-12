@@ -32,7 +32,6 @@ output "ex-list-op" {
 
 # This is how we declare a map variable
 variable "example-map" {
-    type = "map" # optional
     default = {
         Duration = 105,
         Trainer = "verma",
